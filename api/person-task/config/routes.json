@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/person-tasks",
+      "handler": "person-task.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/person-tasks/count",
+      "handler": "person-task.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/person-tasks/:id",
+      "handler": "person-task.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/person-tasks",
+      "handler": "person-task.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/person-tasks/:id",
+      "handler": "person-task.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/person-tasks/:id",
+      "handler": "person-task.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

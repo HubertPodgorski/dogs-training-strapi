@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tasks",
+  "info": {
+    "name": "Task",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "dogs": {
+      "collection": "dog"
+    },
+    "description": {
+      "type": "string"
+    },
+    "order": {
+      "type": "integer",
+      "required": true
+    },
+    "dog_tasks": {
+      "collection": "dog-task"
+    },
+    "person_tasks": {
+      "collection": "person-task"
+    },
+    "column": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "right"
+      ]
+    }
+  }
+}

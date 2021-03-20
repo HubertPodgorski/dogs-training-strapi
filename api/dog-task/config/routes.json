@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/dog-tasks",
+      "handler": "dog-task.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/dog-tasks/count",
+      "handler": "dog-task.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/dog-tasks/:id",
+      "handler": "dog-task.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/dog-tasks",
+      "handler": "dog-task.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/dog-tasks/:id",
+      "handler": "dog-task.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/dog-tasks/:id",
+      "handler": "dog-task.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
