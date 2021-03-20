@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "dogs",
+  "collectionName": "dog_tasks",
   "info": {
-    "name": "Dog",
+    "name": "Dog Task",
     "description": ""
   },
   "options": {
