@@ -21,18 +21,21 @@
       "type": "integer",
       "required": true
     },
-    "dog_tasks": {
+    "tasks": {
       "collection": "dog-task"
-    },
-    "person_tasks": {
-      "collection": "person-task"
     },
     "column": {
       "type": "enumeration",
       "enum": [
         "left",
         "right"
-      ]
+      ],
+      "default": "left"
+    },
+    "peopleTasks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "person-task-pair.people-tasks"
     }
   }
 }
