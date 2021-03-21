@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_person_task_pair_people_tasks",
+  "info": {
+    "name": "peopleTasks",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "personId": {
+      "type": "string"
+    },
+    "uuid": {
+      "type": "string"
+    },
+    "taskId": {
+      "type": "string"
+    },
+    "taskName": {
+      "type": "string"
+    },
+    "personName": {
+      "type": "string"
+    }
+  }
+}
