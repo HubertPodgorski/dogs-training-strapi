@@ -17,6 +17,7 @@
       "unique": true
     },
     "dogs": {
+      "unique": true,
       "collection": "dog"
     }
   }
