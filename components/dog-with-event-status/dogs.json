@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_dog_with_event_status_dogs",
+  "info": {
+    "name": "dogs",
+    "icon": "paw"
+  },
+  "options": {},
+  "attributes": {
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "untouched",
+        "present",
+        "notPresent"
+      ],
+      "default": "untouched",
+      "required": true
+    },
+    "dog": {
+      "model": "dog"
+    }
+  }
+}

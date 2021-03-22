@@ -17,7 +17,9 @@
       "required": true
     },
     "dogs": {
-      "collection": "dog"
+      "type": "component",
+      "repeatable": true,
+      "component": "dog-with-event-status.dogs"
     }
   }
 }
