@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/dog-statistics",
+      "handler": "dog-statistics.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/dog-statistics/count",
+      "handler": "dog-statistics.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/dog-statistics/:id",
+      "handler": "dog-statistics.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/dog-statistics",
+      "handler": "dog-statistics.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/dog-statistics/:id",
+      "handler": "dog-statistics.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/dog-statistics/:id",
+      "handler": "dog-statistics.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
