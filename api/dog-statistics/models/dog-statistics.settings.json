@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dog_statistics",
+  "info": {
+    "name": "Dog Statistics",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "startMeter": {
+      "type": "string"
+    },
+    "fullRunTime": {
+      "type": "string"
+    },
+    "recallTime": {
+      "type": "string"
+    },
+    "tapTime": {
+      "type": "string"
+    },
+    "dogId": {
+      "type": "string"
+    },
+    "runAt": {
+      "type": "string"
+    },
+    "eventId": {
+      "type": "string"
+    }
+  }
+}
