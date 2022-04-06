@@ -5,7 +5,7 @@ module.exports = ({ env }) => ({
       connector: 'mongoose',
       settings: {
         uri: env('DATABASE_URI'),
-        database: 'dogTrainingStrapi'
+        database: env('DATABASE_NAME')
       },
       options: {
         ssl: true,
