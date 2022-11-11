@@ -20,7 +20,7 @@ module.exports = {
 
     const newEvent = {
       ...event, dogs: [
-        ...event.dogs.filter((filteredDogWithStatus) => (filteredDogWithStatus && filteredDogWithStatus.dog.id !== dogWithStatus.dog._id)),
+        ...event.dogs.filter((filteredDogWithStatus) => (filteredDogWithStatus && filteredDogWithStatus.dog._id !== dogWithStatus.dog._id)),
         dogWithStatus
         // remap to save only correct fields (no version, no unused model fields)
       ].map(({status, dog}) => ({status, dog: {name: dog.name, _id: dog._id}}))
